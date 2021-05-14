@@ -46,5 +46,6 @@ module.exports = (config) => {
         htmlTemplateEngine: "njk",
         passthroughFileCopy: true,
         templateFormats: ["md", "njk"],
+        pathPrefix: "/kinoclan/",
     };
 };
