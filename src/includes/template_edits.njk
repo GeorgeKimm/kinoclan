@@ -1,0 +1,6 @@
+{%- import "macros.njk" as macros -%}
+
+
+{%- for item in edits -%}
+    {{ macros.box_other(item, "edit") }}
+{%- endfor -%}

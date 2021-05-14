@@ -1,0 +1,35 @@
+[
+    {   "image": "/images/content/screenplay/cooldialogfull.jpg",
+        "imageSmall": "/images/content/screenplay/cooldialog-small.jpg",
+        "imageCrop": "/images/content/screenplay/cooldialog-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Как пишут крутые диалоги в кино — Тарантино, Эдгар Райт и МакДона",
+        "titleCategories": "Сценарное мастерство",
+        "titleCard": "Как пишут крутые диалоги в кино",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Рассказываем о главных принципах голливудских сценариев.",
+        "bigDescription": "Диалоги в фильмах Тарантино и МакДоны получаются такими увлекательными неслучайно — сценаристы следуют определённым правилам. Если просто сесть и записать разговор как в жизни, интересного диалога не получится. Рассказываем о главных принципах голливудских сценариев, которые позволяют сделать общение героев живым.",
+        "director": "Ефим Гугнин",
+        "writer": "Ефим Гугнин",
+        "linkVideo": "https://www.youtube.com/embed/yB_zqxah-OI"
+
+    },
+
+    {   "image": "/images/content/screenplay/bestwriterfull.jpg",
+        "imageSmall": "/images/content/screenplay/bestwriter-small.jpg",
+        "imageCrop": "/images/content/screenplay/bestwriter-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Who Is The Best Screenwriter Of All Time?",
+        "titleCategories": "Сценарное мастерство",
+        "titleCard": "Who Is The Best Screenwriter Of All Time?",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Let’s take a look.",
+        "bigDescription": "Last year, vulture.com asked 40 working screenwriters who they thought was the best screenwriter ever and compiled their answers into a list of the top 100. Today, I take a look at the work of the man who came in at 1: Billy Wilder. ",
+        "director": "Just write",
+        "writer": "Just write",
+        "linkVideo": "https://www.youtube.com/embed/VHQuR885yMQ"
+
+    }
+]

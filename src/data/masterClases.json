@@ -1,0 +1,69 @@
+[
+    {   "image": "/images/content/masterclass/fincherfull.jpg",
+        "imageSmall": "/images/content/masterclass/fincher-small.jpg",
+        "imageCrop": "/images/content/masterclass/fincher-crop.jpg",
+        "titleArticle": "Мастер класс",
+        "textArticle": "Master class by David Fincher",
+        "titleCategories": "Режиссура",
+        "titleCard": "Master class by David Fincher",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "One of cinema's most dazzling visual stylists",
+        "bigDescription": "One of cinema's most dazzling visual stylists, whose dark view of human nature often overshadowed the stark images of his films, director David Fincher established himself in the world of commercials and music videos before becoming one of Hollywood's most respected talents",
+        "director": "Escuela Universitaria de Artes TAI",
+        "writer": "Escuela Universitaria de Artes TAI",
+        "linkVideo": "https://www.youtube.com/embed/nqFPb_S1MGg"
+
+    },
+
+    {   "image": "/images/content/masterclass/martinfull.jpg",
+        "imageSmall": "/images/content/masterclass/martin-small.jpg",
+        "imageCrop": "/images/content/masterclass/martin-crop.jpg",
+        "titleArticle": "Мастер класс",
+        "textArticle": "LESSONS ON FILMMAKING : MARTIN SCORSESE",
+        "titleCategories": "Режиссура",
+        "titleCard": "LESSONS ON FILMMAKING : MARTIN SCORSESE",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Arguably one of the greatest directors of all time",
+        "bigDescription": "Arguably one of the greatest directors of all time, Martin Scorsese made some of the most daring films in cinema history. His impressive body of work was a meditation on the visceral nature of violence and male relationships that often reflected his own personal angst growing up in the violent streets of Manhattan's Lower East Side.",
+        "director": "Carlos Renaso",
+        "writer": "Carlos Renaso",
+        "linkVideo": "https://www.youtube.com/embed/eT3iLDo6rsc"
+
+    },
+
+    {   "image": "/images/content/masterclass/torofull.jpg",
+        "imageSmall": "/images/content/masterclass/toro-small.jpg",
+        "imageCrop": "/images/content/masterclass/toro-crop.jpg",
+        "titleArticle": "Мастер класс",
+        "textArticle": "The Craft of the Director: Guillermo del Toro",
+        "titleCategories": "Режиссура",
+        "titleCard": "The Craft of the Director: Guillermo del Toro",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "the director shares his many years of experience",
+        "bigDescription": "Director Guillermo del Toro engages in a craft-oriented discussion with moderator Jeremy Kagan, sharing his insights on working with actors, his filmography, and what he's learned about directing up to this point in his career.",
+        "director": "Directors Guild of America",
+        "writer": "Directors Guild of America",
+        "linkVideo": "https://www.youtube.com/embed/FjR5bT5YYU0"
+
+    },
+
+    {   "image": "/images/content/masterclass/timfull.jpg",
+        "imageSmall": "/images/content/masterclass/tim-small.jpg",
+        "imageCrop": "/images/content/masterclass/tim-crop.jpg",
+        "titleArticle": "Мастер класс",
+        "textArticle": "TIM BURTON. Master Class",
+        "titleCategories": "Режиссура",
+        "titleCard": "TIM BURTON. Master Class",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "the director shares his many years of experience",
+        "bigDescription": "Director, producer, writer, animator, and artist Tim Burton joins post-secondary students and faculty to offer feedback on the work of animation students and to celebrate the medium of stop-motion animation. This Higher Learning event was held on November 23, 2010 at TIFF Bell Lightbox.",
+        "director": "Patrick willems",
+        "writer": "Patrick willems",
+        "linkVideo": "https://www.youtube.com/embed/fEllzzaZTYw"
+
+    }
+]

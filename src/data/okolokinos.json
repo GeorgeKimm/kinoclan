@@ -1,0 +1,86 @@
+[
+    {   "image": "/images/content/okolokino/newhollywoodfull.jpg",
+        "imageSmall": "/images/content/okolokino/newhollywood-small.jpg",
+        "imageCrop": "/images/content/okolokino/newhollywood-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Как фильмы Бонни и Клайд, Выпускник и Беспечный ездок сломали голливудские порядки?",
+        "titleCategories": "okolokino",
+        "titleCard": "Новый Голливуд за 23 минуты",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Как фильмы Бонни и Клайд, Выпускник и Беспечный ездок сломали голливудские порядки?",
+        "bigDescription": "Чем ответили режиссеры нового поколения на войны в Корее и Вьетнаме? Принесли ли секс, наркотики и рок-н-ролл свободу кино? И как Стивен Спилберг и Джордж Лукас погубили десятилетку авторской вседозволенности?",
+        "director": "Анастасия Усанова",
+        "writer": "Ильдар Валиуллин",
+        "linkVideo": "https://www.youtube.com/embed/7DiRj65WxNU"
+
+    },
+
+    {   "image": "/images/content/okolokino/clipsfull.jpg",
+        "imageSmall": "/images/content/okolokino/clips-small.jpg",
+        "imageCrop": "/images/content/okolokino/clips-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Когда Клипы Становятся Кино?",
+        "titleCategories": "okolokino",
+        "titleCard": "Когда Клипы Становятся Кино?",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Анализируем работы выдающихся клипмейкеров",
+        "bigDescription": "Добро пожаловать в новый год! 2021 станет для канала годом очень интересным - скоро увидите почему. А в первый день этого года я рад подарить вам самый продолжительный выпуск за два с половиной года. Выпуск о теме, которая не только на канале еще не была освещена, но и которая в принципе до сих пор успешно умудряется оставаться вне взгляда киноведения. Выпуск о клипах. Буду как никогда ждать ваших отзывов!",
+        "director": "MovieScience",
+        "writer": "MovieScience",
+        "linkVideo": "https://www.youtube.com/embed/TEJepsNr-es"
+
+    },
+
+    {   "image": "/images/content/okolokino/spacefull.jpg",
+        "imageSmall": "/images/content/okolokino/space-small.jpg",
+        "imageCrop": "/images/content/okolokino/space-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "История космоса в кино за 23 минуты",
+        "titleCategories": "okolokino",
+        "titleCard": "История космоса в кино за 23 минуты",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Путешествие на луну, космическая одиссея и многое другое",
+        "bigDescription": "Как так вышло, что уже в 1902 году Жорж Мельес показал первый цветной фильм про космос? Сколько лет понадобилось кинематографу, чтобы после его Путешествия на Луну вновь отправиться за пределы Земли? Как Космическая одиссея Кубрика и Солярис Тарковского углубили космические поиски? Кто и как до Тарковского экранизировал другой роман Станислава Лема? И можно ли в XXI веке снять отличное космическое кино всего за 5 миллионов долларов? На эти и другие вопросы отвечаем в нашем новом ",
+        "director": "Анастасия Усанова",
+        "writer": "Ильдар Валиуллин",
+        "linkVideo": "https://www.youtube.com/embed/T1jIEJ7VjUQ"
+
+    },
+
+    {   "image": "/images/content/okolokino/finchermusicfull.jpg",
+        "imageSmall": "/images/content/okolokino/finchermusic-small.jpg",
+        "imageCrop": "/images/content/okolokino/finchermusic-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "David Fincher & the Craft of Music Videos",
+        "titleCategories": "okolokino",
+        "titleCard": "David Fincher & the Craft of Music Videos",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Clip's Madonna, Sting, Justin Timberlake",
+        "bigDescription": "Before David Fincher made movies, he made music videos. Let's talk about them.",
+        "director": "Patrick willems",
+        "writer": "Patrick willems",
+        "linkVideo": "https://www.youtube.com/embed/esIFZnJqYow"
+
+    },
+
+    {   "image": "/images/content/okolokino/trailerfull.jpg",
+        "imageSmall": "/images/content/okolokino/trailer-small.jpg",
+        "imageCrop": "/images/content/okolokino/trailer-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "От Касабланки до Отряда: Эволюция трейлеров за 7 минут",
+        "titleCategories": "okolokino",
+        "titleCard": "От Касабланки до Отряда: Эволюция трейлеров за 7 минут",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Откроем секреты производства трейлеров",
+        "bigDescription": "Как выглядел тизер начала ХХ века? Почему «Звёздные войны» сломали интернет? Как реклама может испортить фильм? История голливудских трейлеров от КиноПоиска.",
+        "director": "Анастасия Усанова",
+        "writer": "Ильдар Валиуллин",
+        "linkVideo": "https://www.youtube.com/embed/vNb5887rlZM"
+
+    }
+]

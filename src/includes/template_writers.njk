@@ -1,0 +1,6 @@
+{%- import "macros.njk" as macros -%}
+
+
+{%- for item in writers -%}
+    {{ macros.box_other(item, "writer") }}
+{%- endfor -%}

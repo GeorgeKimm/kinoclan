@@ -1,0 +1,175 @@
+{
+    "categories": {
+        "essays": [
+            {
+                "imageSmall": "/images/content/director/2049-small.jpg",
+                "title": "Искусство масштаба и глубины"
+            },
+            {
+                "imageSmall": "/images/content/director/harry-small.jpg",
+                "title": "За что мы любим Узник Азкабана"
+            },
+            {
+                "imageSmall": "/images/content/screenplay/cooldialog-small.jpg",
+                "title": "Как пишут крутые диалоги в кино"
+            },
+            {
+                "imageSmall": "/images/content/screenplay/bestwriter-small.jpg",
+                "title": "Who Is The Best Screenwriter Of All Time?"
+            }
+        ],
+
+        "masterClass": [
+            {
+                "imageSmall": "/images/content/masterclass/fincher-small.jpg",
+                "title": "Master class by David Fincher"
+            },
+            {
+                "imageSmall": "/images/content/masterclass/martin-small.jpg",
+                "title": "LESSONS ON FILMMAKING : MARTIN SCORSESE"
+            },
+            {
+                "imageSmall": "/images/content/masterclass/toro-small.jpg",
+                "title": "The Craft of the Director: Guillermo del Toro"
+            },
+            {
+                "imageSmall": "/images/content/masterclass/tim-small.jpg",
+                "title": "TIM BURTON. Master Class"
+            }
+        ],
+
+        "backStage": [
+            {
+                "imageSmall": "/images/content/backstage/spilberg-small.jpg",
+                "title": "Bridge of Spies"
+            },
+            {
+                "imageSmall": "/images/content/backstage/cameron-small.jpg",
+                "title": "Avatar"
+            },
+            {
+                "imageSmall": "/images/content/backstage/walk-small.jpg",
+                "title": "The Walk"
+            },
+            {
+                "imageSmall": "/images/content/backstage/wolf-small.jpg",
+                "title": "The Wolf of Wall Street"
+            }
+        ],
+
+        "interview": [
+            {
+                "imageSmall": "/images/content/interview/devid-small.jpg",
+                "title": "Interview de David Lynch"
+            }
+        ],
+
+        "podcast": [
+            {
+                "imageSmall": "/images/content/Matrix-featured-1-218x150.jpg",
+                "title": "Лучший год в истории кино, как 1999 изменил все"
+            },
+            {
+                "imageSmall": "/images/content/cover_2operator-218x150.jpg",
+                "title": "Оператор без оскара"
+            },
+            {
+                "imageSmall": "/images/content/Jojo-rabbit-34-1-218x150.jpg",
+                "title": "Кролик Джо Джо"
+            },
+            {
+                "imageSmall": "/images/content/1917-3-218x150.jpg",
+                "title": "1917"
+            }
+        ],
+
+        "literature": [
+            {
+                "imageSmall": "/images/content/Matrix-featured-1-218x150.jpg",
+                "title": "Лучший год в истории кино, как 1999 изменил все"
+            },
+            {
+                "imageSmall": "/images/content/cover_2operator-218x150.jpg",
+                "title": "Оператор без оскара"
+            },
+            {
+                "imageSmall": "/images/content/Jojo-rabbit-34-1-218x150.jpg",
+                "title": "Кролик Джо Джо"
+            },
+            {
+                "imageSmall": "/images/content/1917-3-218x150.jpg",
+                "title": "1917"
+            }
+        ]
+    },
+
+    "screenplays": [
+        {
+            "imageSmall": "/images/content/screenplays/killbill-small.jpg",
+            "title": "Убить Билла. Часть 1"
+        },
+        {
+            "imageSmall": "/images/content/screenplays/kane-small.jpg",
+            "title": "Гражданин Кейн"
+        },
+        {
+            "imageSmall": "/images/content/screenplays/matrix-small.jpg",
+            "title": "Матрица"
+        },
+        {
+            "imageSmall": "/images/content/screenplays/avatar-small.jpg",
+            "title": "Аватар"
+        },
+        {
+            "imageSmall": "/images/content/screenplays/socialnetwork-small.jpg",
+            "title": "Социальная сеть"
+        }
+    ],
+
+    "okolokinos": [
+        {
+            "imageSmall": "/images/content/okolokino/newhollywood-small.jpg",
+            "title": "Новый Голливуд за 23 минуты"
+        },
+        {
+            "imageSmall": "/images/content/okolokino/clips-small.jpg",
+            "title": "Когда Клипы Становятся Кино?"
+        },
+        {
+            "imageSmall": "/images/content/okolokino/space-small.jpg",
+            "title": "История космоса в кино за 23 минуты"
+        },
+        {
+            "imageSmall": "/images/content/okolokino/finchermusic-small.jpg",
+            "title": "David Fincher & the Craft of Music Videos"
+        },
+        {
+            "imageSmall": "/images/content/okolokino/trailer-small.jpg",
+            "title": "От Касабланки до Отряда: Эволюция трейлеров за 7 минут"
+        }
+    ],
+
+    "frames": [
+        {
+            "imageSmall": "/images/content/frame/casino/casinofull-small.jpg",
+            "title": "Казино Рояль"
+        },
+        {
+            "imageSmall": "/images/content/frame/detective/detectivefull-small.jpg",
+            "title": "Настоящий детектив"
+        },
+        {
+            "imageSmall": "/images/content/frame/exmachina/exMachinafull-small.jpg",
+            "title": "Из машины"
+        },
+        {
+            "imageSmall": "/images/content/frame/godfather/godfatherfull-small.jpg",
+            "title": "Крестный отец"
+        },
+        {
+            "imageSmall": "/images/content/frame/neon/neonfull-small.jpg",
+            "title": "Неоновый демон"
+        }
+    ]
+}
+

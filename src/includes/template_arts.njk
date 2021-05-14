@@ -1,0 +1,6 @@
+{%- import "macros.njk" as macros -%}
+
+
+{%- for item in arts -%}
+    {{ macros.box_other(item, "art") }}
+{%- endfor -%}

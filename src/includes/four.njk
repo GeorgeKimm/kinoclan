@@ -1,0 +1,8 @@
+{%- import "macros.njk" as macros -%}
+
+
+<div class="four">
+    {%- for item in frames| top(4) -%}
+        {{ macros.four_card(item) }}
+    {%- endfor -%}
+</div>

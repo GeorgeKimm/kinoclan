@@ -1,0 +1,35 @@
+[
+    {   "image": "/images/content/actor/methodfull.jpg",
+        "imageSmall": "/images/content/actor/method-small.jpg",
+        "imageCrop": "/images/content/actor/method-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Система Станиславского",
+        "titleCategories": "Актерское мастерство",
+        "titleCard": "Система Станиславского",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "как работает актёрский метод в кино и мешает ли играть?",
+        "bigDescription": "Для погружения в роль Джокера, Джаред Лето рассылал коллегам по площадке трупы крыс и анальные шарики. Всё из-за актёрского метода по Станиславскому, - точнее, из-за его извращённой версии, распространённой в современной киноиндустрии.Разбираемся, действительно ли система Станиславского так необходима актёрам - или это лишь оправдание, чтобы попиариться и подвести коллег.",
+        "director": "Алексей Луцай",
+        "writer": "Леонид Рахлин, Артём Калеев, Артемий Леонов",
+        "linkVideo": "https://www.youtube.com/embed/hHaDsonHi2w"
+
+    },
+
+    {   "image": "/images/content/actor/strongfull.jpg",
+        "imageSmall": "/images/content/actor/strong-small.jpg",
+        "imageCrop": "/images/content/actor/strong-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Что Делает Актерскую Игру Сильной и Правдоподобной?",
+        "titleCategories": "Актерское мастерство",
+        "titleCard": "Что Делает Актерскую Игру Сильной и Правдоподобной?",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Новое видеоэссе о об одной из самых сложных профессий в кинопроизводстве",
+        "bigDescription": "Исполняя определённую роль в театральном представлении, актёр как бы уподобляет себя лицу, от имени которого он действует в спектакле. Путём воздействия на зрителя во время спектакля создаётся особое игровое пространство и сообщество актёров и зрителей",
+        "director": "MovieScience",
+        "writer": "MovieScience",
+        "linkVideo": "https://www.youtube.com/embed/_aA4utykChg"
+
+    }
+]

@@ -1,0 +1,6 @@
+{%- import "macros.njk" as macros -%}
+
+
+{%- for item in backStages -%}
+    {{ macros.box_other(item, "backstage") }}
+{%- endfor -%}

@@ -1,0 +1,27 @@
+---
+layout: page.njk
+pagination:
+    data: okolokinos
+    size: 1
+    alias: okolokino
+permalink: /content/okolokino/{{ okolokino.titleCard | translit | slug }}/index.html
+---
+{%- import "macros.njk" as macros -%}
+
+
+{%- include "header.njk" -%}
+{{ macros.article_head(okolokino) }}
+<div class="video_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                {{ macros.video(okolokino) }}
+            </div>
+            <div class="index_secondary">
+                {%- include "comments.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

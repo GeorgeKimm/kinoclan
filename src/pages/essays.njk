@@ -1,0 +1,25 @@
+---
+layout: page.njk
+permalink: essays/index.html
+---
+
+
+{%- include "header.njk" -%}
+<div class="parallax parallax_essays">
+    <h1 class="title_article">Кинообразование доступно всем</h1>
+    <span class="text_article">Здесь вы найдете лучшие видео эссе о кино</span>
+</div>
+<div class="other_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                <div class="signature">
+                    <span class="name_signature">Эссе</span>
+                </div>
+                {%- include "template_essays.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

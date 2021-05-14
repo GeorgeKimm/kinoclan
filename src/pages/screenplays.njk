@@ -1,0 +1,24 @@
+---
+layout: page.njk
+permalink: screenplays/index.html
+---
+
+{%- include "header.njk" -%}
+<div class="parallax parallax_screenplays">
+    <h1 class="title_article">Мастерская сценариста</h1>
+    <span class="text_article">Здесь вы найдете сценарии любимых фильмов и сериалов</span>
+</div>
+<div class="screenplays_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                <div class="signature">
+                    <span class="name_signature">Сценарии</span>
+                </div>
+                {%- include "box_screenplays.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

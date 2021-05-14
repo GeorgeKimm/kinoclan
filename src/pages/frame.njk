@@ -1,0 +1,27 @@
+---
+layout: page.njk
+pagination:
+    data: frames
+    size: 1
+    alias: frame
+permalink: /content/frame/{{ frame.titleCard | translit | slug }}/index.html
+---
+{%- import "macros.njk" as macros -%}
+
+
+{%- include "header.njk" -%}
+{{ macros.article_head(frame) }}
+<div class="frame_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                {{ macros.frame(frame) }}
+            </div>
+            <div class="index_secondary">
+                {%- include "comments.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

@@ -1,0 +1,13 @@
+{%- import "macros.njk" as macros -%}
+{%- set main = 0 -%}
+
+<div class="box_index">
+    {{macros.box_left(boxEssays[main])}}
+    <div class="box_right">
+        {%- for item in boxEssays| top(5) -%}
+            {%- if loop.index0 != main -%}
+            {{ macros.box_small(item) }}
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
+</div>

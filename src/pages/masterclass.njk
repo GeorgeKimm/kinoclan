@@ -1,0 +1,27 @@
+---
+layout: page.njk
+pagination:
+    data: masterClases
+    size: 1
+    alias: masterclass
+permalink: /content/masterclass/{{ masterclass.titleCard | translit | slug }}/index.html
+---
+{%- import "macros.njk" as macros -%}
+
+
+{%- include "header.njk" -%}
+{{ macros.article_head(masterclass) }}
+<div class="video_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                {{ macros.video(masterclass) }}
+            </div>
+            <div class="index_secondary">
+                {%- include "comments.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

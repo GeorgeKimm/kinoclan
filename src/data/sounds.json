@@ -1,0 +1,35 @@
+[
+    {   "image": "/images/content/sound/silentfull.jpg",
+        "imageSmall": "/images/content/sound/silent-small.jpg",
+        "imageCrop": "/images/content/sound/silent-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Как работают тишина и звук в фильмах Николаса Рефна",
+        "titleCategories": "Звук и музыка",
+        "titleCard": "Как работают тишина и звук в фильмах Николаса Рефна",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Разбор аспектов саунд-дизайна в фильмах Николаса Виндинг Рефна",
+        "bigDescription": "Разбор аспектов саунд-дизайна в фильмах Николаса Виндинг Рефна. Как он использует тишину и отсутствие диалогов в качестве элемента повествования, и почему визуал в кино - это далеко не весь замысел?",
+        "director": "Александр Рыбаков",
+        "writer": "Александр Рыбаков",
+        "linkVideo": "https://www.youtube.com/embed/G-hJxd2hUQ4"
+
+    },
+
+    {   "image": "/images/content/sound/soundtrackfull.jpg",
+        "imageSmall": "/images/content/sound/soundtrack-small.jpg",
+        "imageCrop": "/images/content/sound/soundtrack-crop.jpg",
+        "titleArticle": "Видеоэссе",
+        "textArticle": "Как Саундтрек Углубляет Фильм?",
+        "titleCategories": "Звук и музыка",
+        "titleCard": "Как Саундтрек Углубляет Фильм?",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Как с помощь музыки рассказать историю",
+        "bigDescription": "Говоря о музыке в западном понимании этого слова, определяет её как художественную организацию звучания, которое, в смысле природного и эмоционально воспринимаемого звучащего феномена, рисует картину мира и души, неосознанно и конкретно схватываемую слухом, а в смысле искусства это звучание становится духовным",
+        "director": "MovieScience",
+        "writer": "MovieScience",
+        "linkVideo": "https://www.youtube.com/embed/OBwEcYFh3AU"
+
+    }
+]

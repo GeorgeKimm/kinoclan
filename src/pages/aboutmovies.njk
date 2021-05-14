@@ -1,0 +1,25 @@
+---
+layout: page.njk
+permalink: aboutmovies/index.html
+---
+
+
+{%- include "header.njk" -%}
+<div class="parallax parallax_aboutmovies">
+    <h1 class="title_article">Двери в мир кино открыты</h1>
+    <span class="text_article">Лучшие материалы по киноискусству здесь</span>
+</div>
+<div class="other_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                <div class="signature">
+                    <span class="name_signature">Учебные материалы</span>
+                </div>
+                {%- include "template_aboutmovies.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

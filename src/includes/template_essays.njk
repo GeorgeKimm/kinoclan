@@ -1,0 +1,36 @@
+{%- import "macros.njk" as macros -%}
+
+{# вот этот точно работает #}
+{# {%- for item in boxEssays -%}
+    {{ macros.box_other(item, "essay") }}
+{%- endfor -%} #}
+
+
+
+{%- for item in operators -%}
+    {{ macros.box_other(item, "operator") }}
+{%- endfor -%}
+
+{%- for item in actors -%}
+    {{ macros.box_other(item, "actor") }}
+{%- endfor -%}
+
+{%- for item in directors -%}
+    {{ macros.box_other(item, "director") }}
+{%- endfor -%}
+
+{%- for item in writers -%}
+    {{ macros.box_other(item, "writer") }}
+{%- endfor -%}
+
+{%- for item in edits -%}
+    {{ macros.box_other(item, "edit") }}
+{%- endfor -%}
+
+{%- for item in arts -%}
+    {{ macros.box_other(item, "art") }}
+{%- endfor -%}
+
+{%- for item in sounds -%}
+    {{ macros.box_other(item, "sound") }}
+{%- endfor -%}

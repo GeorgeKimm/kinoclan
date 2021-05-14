@@ -1,0 +1,37 @@
+---
+layout: page.njk
+permalink: index.html
+---
+
+{%- include "header.njk" -%}
+<div class="index_container">
+    {%- include "four.njk" -%}
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                <div class="signature">
+                    <span class="name_signature">Эссе</span>
+                </div>
+                {%- include "box_index.njk" -%}
+                <a href="/essays" class="card_link link_view_all">
+                    <button class="view_all">
+                        Смотреть еще
+                    </button>
+                </a>
+            </div>
+            <div class="index_secondary">
+                <div class="signature">
+                    <span class="name_signature">Сценарии</span>
+                </div>
+                {%- include "box_list.njk" -%}
+                <div class="continue">
+                    <a href="/screenplays" class="card_link">
+                        Смотреть еще
+                    </a>
+                </div>
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

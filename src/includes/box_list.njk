@@ -1,0 +1,7 @@
+{%- import "macros.njk" as macros -%}
+
+<div class="box_list">
+    {%- for item in boxScreenplays| top(8) -%}
+        {{ macros.box_general(item) }}
+    {%- endfor -%}
+</div>

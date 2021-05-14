@@ -1,0 +1,27 @@
+---
+layout: page.njk
+pagination:
+    data: aboutMovies
+    size: 1
+    alias: aboutmovie
+permalink: /content/aboutmovie/{{ aboutmovie.titleCard | translit | slug }}/index.html
+---
+{%- import "macros.njk" as macros -%}
+
+
+{%- include "header.njk" -%}
+{{ macros.article_head(aboutmovie) }}
+<div class="video_container">
+    <div class="main">
+        <div class="box">
+            <div class="index_primory">
+                {{ macros.video(aboutmovie) }}
+            </div>
+            <div class="index_secondary">
+                {%- include "comments.njk" -%}
+            </div>
+        </div>
+        {%- include "sidebar.njk" -%}
+    </div>
+</div>
+{%- include "footer.njk" -%}

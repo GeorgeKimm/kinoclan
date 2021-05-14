@@ -1,0 +1,68 @@
+[
+    {   "image": "/images/content/backstage/spilbergfull.jpg",
+        "imageSmall": "/images/content/backstage/spilberg-small.jpg",
+        "imageCrop": "/images/content/backstage/spilberg-crop.jpg",
+        "titleArticle": "Back stage",
+        "textArticle": "Bridge of Spies",
+        "titleCategories": "Режиссура",
+        "titleCard": "Bridge of Spies",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Check out Movie Behind the Scenes",
+        "bigDescription": "Behind the Scenes of Bridge of Spies with Steven Spielberg and Tom Hanks.",
+        "director": "ScreenSlam",
+        "writer": "ScreenSlam",
+        "linkVideo": "https://www.youtube.com/embed/CHNhufby8Wo"
+
+    },
+
+    {   "image": "/images/content/backstage/cameronfull.jpg",
+        "imageSmall": "/images/content/backstage/cameron-small.jpg",
+        "imageCrop": "/images/content/backstage/cameron-crop.jpg",
+        "titleArticle": "Back stage",
+        "textArticle": "Avatar",
+        "titleCategories": "Режиссура",
+        "titleCard": "Avatar",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Check out Movie Behind the Scenes",
+        "bigDescription": "Behind the Scenes of Avatar with Sigourney Weaver, Zoe Saldana and James Cameron.",
+        "director": "Media Magik Entertainment",
+        "writer": "Media Magik Entertainment",
+        "linkVideo": "https://www.youtube.com/embed/61kMpOgkZRs"
+
+    },
+
+    {   "image": "/images/content/backstage/walkfull.jpg",
+        "imageSmall": "/images/content/backstage/walk-small.jpg",
+        "imageCrop": "/images/content/backstage/walk-crop.jpg",
+        "titleArticle": "Back stage",
+        "textArticle": "The Walk",
+        "titleCategories": "Режиссура",
+        "titleCard": "The Walk",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Check out Movie Behind the Scenes",
+        "bigDescription": "Behind the Scenes of Walk with Robert Zemeckis and Joseph Gordon Levitt.",
+        "director": "FilmIsNow Movie Bloopers",
+        "writer": "FilmIsNow Movie Bloopers",
+        "linkVideo": "https://www.youtube.com/embed/sbSdx412okM"
+
+    },
+
+    {   "image": "/images/content/backstage/wolffull.jpg",
+        "imageSmall": "/images/content/backstage/wolf-small.jpg",
+        "imageCrop": "/images/content/backstage/wolf-crop.jpg",
+        "titleArticle": "Back stage",
+        "textArticle": "The Wolf of Wall Street",
+        "titleCategories": "Режиссура",
+        "titleCard": "The Wolf of Wall Street",
+        "date": "17.04.2021",
+        "numberComments": "2",
+        "description": "Check out Movie Behind the Scenes",
+        "bigDescription": "Behind the Scenes of The Wolf of Wall Street with Leonardo DiCaprio, Jonah Hill and Martin Scorsese.",
+        "director": "ScreenSlam",
+        "writer": "ScreenSlam",
+        "linkVideo": "https://www.youtube.com/embed/SAElGZytudM"
+    }
+]
