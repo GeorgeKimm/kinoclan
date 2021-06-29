@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Киноклан</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="icon" href="/kinoclan/images/clapperboard.svg">
+    <link rel="stylesheet" href="/kinoclan/styles/main.css">
+</head>
+
+<body>
+    <div class="menu"><button class="menu_close"><i class="fas fa-times"></i></button>
+        <div class="expansion_panel">
+            <div class="expansion_panel_header"><a class="expansion_panel_link" href="/kinoclan/aboutmovies">О КИНО</a> <button class="expansion_panel_button"><i class="fas fa-chevron-down"></i></button></div>
+            <div class="expansion_panel_body">
+                <div class="expansion_panel_content"><a class="menu_link" href="/kinoclan/essays">эссе</a> <a class="menu_link" href="/kinoclan/masterClases">мастер класс</a> <a class="menu_link" href="/kinoclan/backStages">backstage</a> <a class="menu_link" href="/kinoclan/interviews">интервью</a></div>
+            </div>
+        </div><a class="menu_link" href="/kinoclan/screenplays">СЦЕНАРИИ</a> <a class="menu_link" href="/kinoclan/okolokinos">ОКОЛО КИНО</a> <a class="menu_link" href="/kinoclan/frames">КАДРЫ</a>
+    </div>
+    <div class="header">
+        <div class="header_wrapper">
+            <div class="header_container">
+                <div class="header_line"><button class="header_hamburger"><i class="fas fa-bars"></i></button>
+                    <div class="header_logo">
+                        <div class="logo"><a href="/kinoclan/" class="nav_link1">КИНОКЛАН</a></div>
+                    </div>
+                    <div class="header_nav">
+                        <ul class="nav_list1">
+                            <li class="nav_item1"><a href="/kinoclan/aboutmovies" class="nav_link1">О КИНО</a>
+                                <div class="nav_wrapper">
+                                    <div class="categories">
+                                        <ul class="nav_list2">
+                                            <li class="nav_item2 nav_item2_active"><a class="nav_link2" href="/kinoclan/essays" data-target="#essays">Эссе</a></li>
+                                            <li class="nav_item2"><a class="nav_link2" href="/kinoclan/masterclases" data-target="#masterClass">Мастер Класс</a></li>
+                                            <li class="nav_item2"><a class="nav_link2" href="/kinoclan/backstages" data-target="#backStage">Backstage</a></li>
+                                            <li class="nav_item2"><a class="nav_link2" href="/kinoclan/interviews" data-target="#interview">Интервью</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav_container">
+                                        <div class="cards" id="essays">
+                                            <div class="card"><a href="/kinoclan/content/essay/iskusstvo-masshtaba-i-glubini" class="card_link"><img src="/kinoclan/images/content/director/2049-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/essay/iskusstvo-masshtaba-i-glubini" class="card_link">
+                                                    <p class="card_text">Искусство масштаба и глубины</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/essay/za-chto-mi-lyubim-uznik-azkabana" class="card_link"><img src="/kinoclan/images/content/director/harry-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/essay/za-chto-mi-lyubim-uznik-azkabana" class="card_link">
+                                                    <p class="card_text">За что мы любим Узник Азкабана</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/essay/kak-pishut-krutie-dialogi-v-kino" class="card_link"><img src="/kinoclan/images/content/screenplay/cooldialog-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/essay/kak-pishut-krutie-dialogi-v-kino" class="card_link">
+                                                    <p class="card_text">Как пишут крутые диалоги в кино</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/essay/who-is-the-best-screenwriter-of-all-time" class="card_link"><img src="/kinoclan/images/content/screenplay/bestwriter-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/essay/who-is-the-best-screenwriter-of-all-time" class="card_link">
+                                                    <p class="card_text">Who Is The Best Screenwriter Of All Time?</p>
+                                                </a></div>
+                                        </div>
+                                        <div class="cards cards_hidden" id="masterClass">
+                                            <div class="card"><a href="/kinoclan/content/masterclass/master-class-by-david-fincher" class="card_link"><img src="/kinoclan/images/content/masterclass/fincher-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/masterclass/master-class-by-david-fincher" class="card_link">
+                                                    <p class="card_text">Master class by David Fincher</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/masterclass/lessons-on-filmmaking-martin-scorsese" class="card_link"><img src="/kinoclan/images/content/masterclass/martin-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/masterclass/lessons-on-filmmaking-martin-scorsese" class="card_link">
+                                                    <p class="card_text">LESSONS ON FILMMAKING : MARTIN SCORSESE</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/masterclass/the-craft-of-the-director-guillermo-del-toro" class="card_link"><img src="/kinoclan/images/content/masterclass/toro-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/masterclass/the-craft-of-the-director-guillermo-del-toro" class="card_link">
+                                                    <p class="card_text">The Craft of the Director: Guillermo del Toro</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/masterclass/tim-burton-master-class" class="card_link"><img src="/kinoclan/images/content/masterclass/tim-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/masterclass/tim-burton-master-class" class="card_link">
+                                                    <p class="card_text">TIM BURTON. Master Class</p>
+                                                </a></div>
+                                        </div>
+                                        <div class="cards cards_hidden" id="backStage">
+                                            <div class="card"><a href="/kinoclan/content/backstage/bridge-of-spies" class="card_link"><img src="/kinoclan/images/content/backstage/spilberg-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/backstage/bridge-of-spies" class="card_link">
+                                                    <p class="card_text">Bridge of Spies</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/backstage/avatar" class="card_link"><img src="/kinoclan/images/content/backstage/cameron-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/backstage/avatar" class="card_link">
+                                                    <p class="card_text">Avatar</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/backstage/the-walk" class="card_link"><img src="/kinoclan/images/content/backstage/walk-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/backstage/the-walk" class="card_link">
+                                                    <p class="card_text">The Walk</p>
+                                                </a></div>
+                                            <div class="card"><a href="/kinoclan/content/backstage/the-wolf-of-wall-street" class="card_link"><img src="/kinoclan/images/content/backstage/wolf-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/backstage/the-wolf-of-wall-street" class="card_link">
+                                                    <p class="card_text">The Wolf of Wall Street</p>
+                                                </a></div>
+                                        </div>
+                                        <div class="cards cards_hidden" id="interview">
+                                            <div class="card"><a href="/kinoclan/content/interview/interview-de-david-lynch" class="card_link"><img src="/kinoclan/images/content/interview/devid-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/interview/interview-de-david-lynch" class="card_link">
+                                                    <p class="card_text">Interview de David Lynch</p>
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item1"><a href="/kinoclan/screenplays" class="nav_link1">СЦЕНАРИИ</a>
+                                <div class="nav_wrapper">
+                                    <div class="cards">
+                                        <div class="card"><a href="/kinoclan/content/screenplay/ubit-billa-chast-1" class="card_link"><img src="/kinoclan/images/content/screenplays/killbill-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/screenplay/ubit-billa-chast-1" class="card_link">
+                                                <p class="card_text">Убить Билла. Часть 1</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/screenplay/grazhdanin-kein" class="card_link"><img src="/kinoclan/images/content/screenplays/kane-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/screenplay/grazhdanin-kein" class="card_link">
+                                                <p class="card_text">Гражданин Кейн</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/screenplay/matritsa" class="card_link"><img src="/kinoclan/images/content/screenplays/matrix-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/screenplay/matritsa" class="card_link">
+                                                <p class="card_text">Матрица</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/screenplay/avatar" class="card_link"><img src="/kinoclan/images/content/screenplays/avatar-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/screenplay/avatar" class="card_link">
+                                                <p class="card_text">Аватар</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/screenplay/sotsialnaya-set" class="card_link"><img src="/kinoclan/images/content/screenplays/socialnetwork-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/screenplay/sotsialnaya-set" class="card_link">
+                                                <p class="card_text">Социальная сеть</p>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item1"><a href="/kinoclan/okolokinos" class="nav_link1">ОКОЛО КИНО</a>
+                                <div class="nav_wrapper">
+                                    <div class="cards">
+                                        <div class="card"><a href="/kinoclan/content/okolokino/novii-gollivud-za-23-minuti" class="card_link"><img src="/kinoclan/images/content/okolokino/newhollywood-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/okolokino/novii-gollivud-za-23-minuti" class="card_link">
+                                                <p class="card_text">Новый Голливуд за 23 минуты</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/okolokino/kogda-klipi-stanovyatsya-kino" class="card_link"><img src="/kinoclan/images/content/okolokino/clips-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/okolokino/kogda-klipi-stanovyatsya-kino" class="card_link">
+                                                <p class="card_text">Когда Клипы Становятся Кино?</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/okolokino/istoriya-kosmosa-v-kino-za-23-minuti" class="card_link"><img src="/kinoclan/images/content/okolokino/space-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/okolokino/istoriya-kosmosa-v-kino-za-23-minuti" class="card_link">
+                                                <p class="card_text">История космоса в кино за 23 минуты</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/okolokino/david-fincher-and-the-craft-of-music-videos" class="card_link"><img src="/kinoclan/images/content/okolokino/finchermusic-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/okolokino/david-fincher-and-the-craft-of-music-videos" class="card_link">
+                                                <p class="card_text">David Fincher &amp; the Craft of Music Videos</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/okolokino/ot-kasablanki-do-otryada-evolyutsiya-treilerov-za-7-minut" class="card_link"><img src="/kinoclan/images/content/okolokino/trailer-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/okolokino/ot-kasablanki-do-otryada-evolyutsiya-treilerov-za-7-minut" class="card_link">
+                                                <p class="card_text">От Касабланки до Отряда: Эволюция трейлеров за 7 минут</p>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_item1"><a href="/kinoclan/frames" class="nav_link1">КАДРЫ</a>
+                                <div class="nav_wrapper">
+                                    <div class="cards">
+                                        <div class="card"><a href="/kinoclan/content/frame/kazino-royal" class="card_link"><img src="/kinoclan/images/content/frame/casino/casinofull-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/frame/kazino-royal" class="card_link">
+                                                <p class="card_text">Казино Рояль</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/frame/nastoyashchii-detektiv" class="card_link"><img src="/kinoclan/images/content/frame/detective/detectivefull-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/frame/nastoyashchii-detektiv" class="card_link">
+                                                <p class="card_text">Настоящий детектив</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/frame/iz-mashini" class="card_link"><img src="/kinoclan/images/content/frame/exmachina/exMachinafull-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/frame/iz-mashini" class="card_link">
+                                                <p class="card_text">Из машины</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/frame/krestnii-otets" class="card_link"><img src="/kinoclan/images/content/frame/godfather/godfatherfull-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/frame/krestnii-otets" class="card_link">
+                                                <p class="card_text">Крестный отец</p>
+                                            </a></div>
+                                        <div class="card"><a href="/kinoclan/content/frame/neonovii-demon" class="card_link"><img src="/kinoclan/images/content/frame/neon/neonfull-small.jpg" alt="" class="card_image"> </a><a href="/kinoclan/content/frame/neonovii-demon" class="card_link">
+                                                <p class="card_text">Неоновый демон</p>
+                                            </a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_line">
+                    <form class="search_box"><input type="text" name="search" id="search_txt" placeholder="search"> <button>Поиск</button></form>
+                </div>
+            </div><button class="search_btn1"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <div class="parallax parallax_arts">
+        <h1 class="title_article">Профессия художник постановщик</h1><span class="text_article">Здесь вы найдете лучшие материалы по художественной постановке</span>
+    </div>
+    <div class="other_container">
+        <div class="main">
+            <div class="box">
+                <div class="index_primory">
+                    <div class="signature"><span class="name_signature">Эссе</span></div>
+                    <div class="box_other">
+                        <div class="side_image">
+                            <div class="card_with_title"><a href="/kinoclan/content/art/kak-sozdali-volshebnii-mir-garri-pottera-v-kino" class="card_link"><img src="/kinoclan/images/content/art/harry-crop.jpg" alt="" class="card_image">
+                                    <p class="title_categories">Художественная постановка</p>
+                                </a></div>
+                        </div>
+                        <div class="side_info"><a href="/kinoclan/content/art/kak-sozdali-volshebnii-mir-garri-pottera-v-kino" class="card_link">
+                                <h3 class="title_card">Как создали волшебный мир Гарри Поттера в кино</h3>
+                            </a>
+                            <div class="card_info">
+                                <p class="card_date">17.04.2021</p>
+                                <div class="number_comments">2</div>
+                            </div>
+                            <p class="card_description">Рассказываем, как авторы фильмов воссоздавали Хогвартс и мир магов</p><a href="/kinoclan/content/art/kak-sozdali-volshebnii-mir-garri-pottera-v-kino" class="read">Читать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="box_sidebar">
+                    <div class="signature"><span class="name_signature">Метки</span></div>
+                    <div class="labels">
+                        <div class="label"><a href="/kinoclan/actors" class="card_link">
+                                <h3 class="name_label">Актерское мастерство</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/sounds" class="card_link">
+                                <h3 class="name_label">Звук и музыка</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/edits" class="card_link">
+                                <h3 class="name_label">Монтаж</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/operators" class="card_link">
+                                <h3 class="name_label">Операторская работа</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/directors" class="card_link">
+                                <h3 class="name_label">Режиссура</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/writers" class="card_link">
+                                <h3 class="name_label">Сценарное мастерство</h3>
+                            </a></div>
+                        <div class="label"><a href="/kinoclan/arts" class="card_link">
+                                <h3 class="name_label">Художественная постановка</h3>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_first"><a href="#" class="footer_link"><i class="fab fa-vk"></i></a> <a href="#" class="footer_link"><i class="fab fa-facebook-f"></i></a> <a href="#" class="footer_link"><i class="fab fa-google-plus-g"></i></a> <a href="#" class="footer_link"><i class="fab fa-twitter"></i></a> <a href="#" class="footer_link"><i class="fab fa-instagram"></i></a> <a href="#" class="footer_link"><i class="fab fa-youtube"></i></a></div>
+        <div class="footer_second"><a href="#" class="a_link footer_second">Разработка сайта Georgiy Kim</a></div>
+    </footer><button class="page-up page-up--hidden"><i class="fas fa-chevron-up"></i></button>
+    <script src="/kinoclan/scripts/main.js"></script>
+    <script src="/kinoclan/scripts/page-up.js"></script>
+</body>
+
+</html>
