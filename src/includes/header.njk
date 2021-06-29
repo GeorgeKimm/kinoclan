@@ -6,27 +6,27 @@
     </button>
     <div class="expansion_panel">
         <div class="expansion_panel_header">
-            <a class="expansion_panel_link" href="/aboutmovies">О КИНО</a>
+            <a class="expansion_panel_link" href="{{ '/aboutmovies' | url }}">О КИНО</a>
             <button class="expansion_panel_button">
                 <i class="fas fa-chevron-down"></i>
             </button>
         </div>
         <div class="expansion_panel_body">
             <div class="expansion_panel_content">
-                <a class="menu_link" href="/essays">эссе</a>
-                <a class="menu_link" href="/masterClases">мастер класс</a>
-                <a class="menu_link" href="/backStages">backstage</a>
-                <a class="menu_link" href="/interviews">интервью</a>
-                {# <a class="menu_link" href="/podcast">подкаст</a>
-                <a class="menu_link" href="/literature">литература</a> #}
+                <a class="menu_link" href="{{ '/essays' | url }}">эссе</a>
+                <a class="menu_link" href="{{ '/masterClases' | url }}">мастер класс</a>
+                <a class="menu_link" href="{{ '/backStages' | url }}">backstage</a>
+                <a class="menu_link" href="{{ '/interviews' | url }}">интервью</a>
+                {# <a class="menu_link" href="{{ '/podcast' | url }}">подкаст</a>
+                <a class="menu_link" href="{{ '/literature' | url }}">литература</a> #}
             </div>
         </div>
     </div>
-    <a class="menu_link" href="/screenplays">СЦЕНАРИИ</a>
-    <a class="menu_link" href="/okolokinos">ОКОЛО КИНО</a>
+    <a class="menu_link" href="{{ '/screenplays' | url }}">СЦЕНАРИИ</a>
+    <a class="menu_link" href="{{ '/okolokinos' | url }}">ОКОЛО КИНО</a>
     {# <div class="expansion_panel">
         <div class="expansion_panel_header">
-            <a class="expansion_panel_link" href="/screenplays">СЦЕНАРИИ</a>
+            <a class="expansion_panel_link" href="{{ '/screenplays' | url }}">СЦЕНАРИИ</a>
             <button class="expansion_panel_button">
                 <i class="fas fa-chevron-down"></i>
             </button>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div> #}
-    <a class="menu_link" href="/frames">КАДРЫ</a>
+    <a class="menu_link" href="{{ '/frames' | url }}">КАДРЫ</a>
 </div>
 <div class="header">
     <div class="header_wrapper">
@@ -63,43 +63,43 @@
                 </button>
                 <div class="header_logo">
                     <div class="logo">
-                        <a href="/index.html" class="nav_link1">КИНОКЛАН</a>
+                        <a href="{{ '/' | url }}" class="nav_link1">КИНОКЛАН</a>
                     </div>
                 </div>
                 <div class="header_nav">
                     <ul class="nav_list1">
                         <li class="nav_item1">
-                            <a href="/aboutmovies" class="nav_link1">О КИНО</a>
+                            <a href="{{ '/aboutmovies' | url }}" class="nav_link1">О КИНО</a>
                             <div class="nav_wrapper">
                                 <div class="categories">
                                     <ul class="nav_list2">
                                         <li class="nav_item2 nav_item2_active">
-                                            <a class="nav_link2" href="/essays" data-target="#essays">
+                                            <a class="nav_link2" href="{{ '/essays' | url }}" data-target="#essays">
                                                 Эссе
                                             </a>
                                         </li>
                                         <li class="nav_item2">
-                                            <a class="nav_link2" href="/masterclases" data-target="#masterClass">
+                                            <a class="nav_link2" href="{{ '/masterclases' | url }}" data-target="#masterClass">
                                                 Мастер Класс
                                             </a>
                                         </li>
                                         <li class="nav_item2">
-                                            <a class="nav_link2" href="/backstages" data-target="#backStage">
+                                            <a class="nav_link2" href="{{ '/backstages' | url }}" data-target="#backStage">
                                                 Backstage
                                             </a>
                                         </li>
                                         <li class="nav_item2">
-                                            <a class="nav_link2" href="/interviews" data-target="#interview">
+                                            <a class="nav_link2" href="{{ '/interviews' | url }}" data-target="#interview">
                                                 Интервью
                                             </a>
                                         </li>
                                         {# <li class="nav_item2">
-                                            <a class="nav_link2" href="/podcast" data-target="#podcast">
+                                            <a class="nav_link2" href="{{ '/podcast' | url }}" data-target="#podcast">
                                                 Подкаст
                                             </a>
                                         </li>
                                         <li class="nav_item2">
-                                            <a class="nav_link2" href="/literature" data-target="#literature">
+                                            <a class="nav_link2" href="{{ '/literature' | url }}" data-target="#literature">
                                                 Литература
                                             </a>
                                         </li> #}
@@ -140,7 +140,7 @@
                             </div>
                         </li>
                         <li class="nav_item1">
-                            <a href="/screenplays" class="nav_link1">
+                            <a href="{{ '/screenplays' | url }}" class="nav_link1">
                                 СЦЕНАРИИ
                             </a>
                             <div class="nav_wrapper">
@@ -152,7 +152,7 @@
                             </div>
                         </li>
                         <li class="nav_item1">
-                            <a href="/okolokinos" class="nav_link1">
+                            <a href="{{ '/okolokinos' | url }}" class="nav_link1">
                                 ОКОЛО КИНО
                             </a>
                             <div class="nav_wrapper">
@@ -164,7 +164,7 @@
                             </div>
                         </li>
                         <li class="nav_item1">
-                            <a href="/frames" class="nav_link1">
+                            <a href="{{ '/frames' | url }}" class="nav_link1">
                                 КАДРЫ
                             </a>
                             <div class="nav_wrapper">

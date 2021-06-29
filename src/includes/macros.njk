@@ -1,11 +1,12 @@
 {# card #}
 
 {% macro card(data, path) %}
+{% set href = "/content/" + path + "/" + data.title | translit | slug %}
 <div class="card">
-    <a href="/content/{{ path }}/{{ data.title | translit | slug }}" class="card_link">
-        <img src="{{ data.imageSmall }}" alt="" class="card_image">
+    <a href="{{ href | url }}" class="card_link">
+        <img src="{{ data.imageSmall | url }}" alt="" class="card_image">
     </a>
-    <a href="/content/{{ path }}/{{ data.title | translit | slug }}" class="card_link">
+    <a href="{{ href | url }}" class="card_link">
         <p class="card_text">
         {{ data.title }}
         </p>
@@ -17,16 +18,17 @@
 {# box_left #}
 
 {% macro box_left(data) %}
+{% set href = "/content/essay/" + data.titleCard | translit | slug %}
 <div class="box_left">
     <div class="card_with_title">
-        <a href="/content/essay/{{ data.titleCard | translit | slug }}" class="card_link">
-            <img src="{{ data.imageCrop }}" alt="" class="card_image">
+        <a href="{{ href | url }}" class="card_link">
+            <img src="{{ data.imageCrop | url }}" alt="" class="card_image">
             <p class="title_categories">
                 {{ data.titleCategories }}
             </p>
         </a>
     </div>
-    <a href="/content/essay/{{ data.titleCard | translit | slug }}" class="card_link">
+    <a href="{{ href | url }}" class="card_link">
         <h3 class="title_card">
             {{ data.titleCard }}
         </h3>
@@ -49,12 +51,13 @@
 {# box_small #}
 
 {% macro box_small(data) %}
+{% set href = "/content/essay/" + data.titleCard | translit | slug %}
 <div class="box_small">
-    <a href="/content/essay/{{ data.titleCard | translit | slug }}" class="card_link">
-        <img src="{{ data.imageCrop }}" alt="" class="card_image">
+    <a href="{{ href | url }}" class="card_link">
+        <img src="{{ data.imageCrop | url }}" alt="" class="card_image">
     </a>
     <div class="content_small">
-        <a href="/content/essay/{{ data.titleCard | translit | slug }}" class="card_link">
+        <a href="{{ href | url }}" class="card_link">
             <h3 class="title_card">
                 {{ data.titleCard }}
             </h3>
@@ -74,9 +77,10 @@
 {# four #}
 
 {% macro four_card(data) %}
+{% set href = "/content/frame/" + data.titleCard | translit | slug %}
 <div class="four_card card_with_title">
-    <a href="/content/frame/{{ data.titleCard | translit | slug }}" class="card_link">
-        <img src="{{ data.imageFour }}" alt="" class="card_image">
+    <a href="{{ href | url }}" class="card_link">
+        <img src="{{ data.imageFour | url }}" alt="" class="card_image">
         <p class="title_categories">
             {{ data.titleCategories }}
         </p>
@@ -88,16 +92,17 @@
 {# box_general #}
 
 {% macro box_general(data) %}
+{% set href = "/content/screenplay/" + data.titleCard | translit | slug %}
 <div class="box_general">
     <div class="card_with_title">
-        <a href="/content/screenplay/{{ data.titleCard | translit | slug }}" class="card_link">
-            <img src="{{ data.imageCrop }}" alt="" class="card_image">
+        <a href="{{ href | url }}" class="card_link">
+            <img src="{{ data.imageCrop | url }}" alt="" class="card_image">
             <p class="title_categories">
                 {{ data.titleCategories }}
             </p>
         </a>
     </div>
-    <a href="/content/screenplay/{{ data.titleCard | translit | slug }}" class="card_link">
+    <a href="{{ href | url }}" class="card_link">
         <h3 class="title_card">
             {{ data.titleCard }}
         </h3>
@@ -132,7 +137,7 @@
     <div class="card_info">
         <p class="card_date">{{ data.date }}</p>
     </div>
-    <a href="{{ data.screenplay }}" download="{{ data.titleArticle }}.pdf" class="install_doc">Скачать сценарий в .pdf</a>
+    <a href="{{ data.screenplay | url }}" download="{{ data.titleArticle }}.pdf" class="install_doc">Скачать сценарий в .pdf</a>
 </div>
 {% endmacro %}
 
@@ -141,7 +146,7 @@
 
 {% macro article_head(data) %}
 <div class="article_head">
-    <img class="image_article" src="{{ data.image }}" alt="">
+    <img class="image_article" src="{{ data.image | url }}" alt="">
     <div class="article_info">
         <h1 class="title_article">{{ data.titleArticle }}</h1>
         <span class="text_article">{{ data.textArticle }}</span>
@@ -154,11 +159,12 @@
 {# box_other #}
 
 {% macro box_other(data, path) %}
+{% set href = "/content/" + path + "/" + data.titleCard | translit | slug %}
 <div class="box_other">
     <div class="side_image">
         <div class="card_with_title">
-            <a href="/content/{{ path }}/{{ data.titleCard | translit | slug }}" class="card_link">
-                <img src="{{ data.imageCrop }}" alt="" class="card_image">
+            <a href="{{ href | url }}" class="card_link">
+                <img src="{{ data.imageCrop | url }}" alt="" class="card_image">
                 <p class="title_categories">
                     {{ data.titleCategories }}
                 </p>
@@ -166,7 +172,7 @@
         </div>
     </div>
     <div class="side_info">
-        <a href="/content/{{ path }}/{{ data.titleCard | translit | slug }}" class="card_link">
+        <a href="{{ href | url }}" class="card_link">
             <h3 class="title_card">{{ data.titleCard }}</h3>
         </a>
         <div class="card_info">
@@ -174,7 +180,7 @@
             <div class="number_comments">{{ data.numberComments }}</div>
         </div>
         <p class="card_description">{{ data.description }}</p>
-        <a href="/content/{{ path }}/{{ data.titleCard | translit | slug }}" class="read">Читать</a>
+        <a href="{{ href | url }}" class="read">Читать</a>
     </div>
 </div>
 {% endmacro %}
@@ -194,7 +200,7 @@
     </span>
 </div>
 <div class="box_video">
-    <iframe class="video" src="{{ data.linkVideo }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="video" src="{{ data.linkVideo | url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 {% endmacro %}
 
@@ -209,10 +215,7 @@
 </div>
 <div class="box_frame">
     {%- for image in data.images -%}
-       <img src="{{ image }}" alt="" class="card_image">
+       <img src="{{ image | url }}" alt="" class="card_image">
     {%- endfor -%}
 </div>
 {% endmacro %}
-
-
-{# data-aos="fade-up" плавное появление блоков #}

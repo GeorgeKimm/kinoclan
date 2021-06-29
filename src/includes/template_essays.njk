@@ -1,36 +1,31 @@
 {%- import "macros.njk" as macros -%}
 
-{# вот этот точно работает #}
-{# {%- for item in boxEssays -%}
+
+{%- for item in boxEssays -%}
     {{ macros.box_other(item, "essay") }}
-{%- endfor -%} #}
-
-
-
-{%- for item in operators -%}
-    {{ macros.box_other(item, "operator") }}
 {%- endfor -%}
 
-{%- for item in actors -%}
-    {{ macros.box_other(item, "actor") }}
-{%- endfor -%}
-
-{%- for item in directors -%}
-    {{ macros.box_other(item, "director") }}
-{%- endfor -%}
-
-{%- for item in writers -%}
-    {{ macros.box_other(item, "writer") }}
-{%- endfor -%}
-
-{%- for item in edits -%}
-    {{ macros.box_other(item, "edit") }}
-{%- endfor -%}
-
-{%- for item in arts -%}
-    {{ macros.box_other(item, "art") }}
-{%- endfor -%}
-
-{%- for item in sounds -%}
-    {{ macros.box_other(item, "sound") }}
-{%- endfor -%}
+{#
+<div class="box_other">
+    <div class="side_image">
+        <div class="card_with_title">
+            <a href="#" class="card_link">
+                <img src="http://via.placeholder.com/324x235" alt="" class="card_image">
+                <p class="title_categories">
+                    Джентельмены
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="side_info">
+        <a href="#" class="card_link">
+            <h3 class="title_card">Lorem ipsum dolor sit amet consectetur</h3>
+        </a>
+        <div class="card_info">
+            <p class="card_date">01.04.2021</p>
+            <div class="number_comments">12</div>
+        </div>
+        <p class="card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" class="read">Читать</a>
+    </div>
+</div> #}

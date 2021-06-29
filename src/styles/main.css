@@ -728,10 +728,6 @@ button {
 	color: var(--firs-color);
 }
 
-.link_view_all {
-    display: grid;
-}
-
 .view_all {
 	justify-self: end;
 	height: 28px;
@@ -1000,7 +996,7 @@ button {
 }
 
 .parallax_screenplays {
-    background: url(/images/content/somelikeithot3.jpg) center/cover no-repeat;
+    background: url(../images/content/somelikeithot3.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1204,7 +1200,7 @@ button {
 /* essays */
 
 .parallax_essays {
-    background: url(/images/content/mank1.jpg) center/cover no-repeat;
+    background: url(../images/content/mank1.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1365,7 +1361,7 @@ button {
 }
 
 .parallax_frames {
-    background: url(/images/content/frames.jpg) center/cover no-repeat;
+    background: url(../images/content/frames.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1376,7 +1372,7 @@ button {
 /* okolokinos */
 
 .parallax_okolokinos {
-    background: url(/images/content/madonna.jpg) center/cover no-repeat;
+    background: url(../images/content/madonna.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1385,7 +1381,7 @@ button {
 /* masterclases */
 
 .parallax_masterclases {
-    background: url(/images/content/master.jpg) center/cover no-repeat;
+    background: url(../images/content/master.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1395,7 +1391,7 @@ button {
 /* backstages*/
 
 .parallax_backstages {
-    background: url(/images/content/backstage.jpg) center/cover no-repeat;
+    background: url(../images/content/backstage.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1405,7 +1401,7 @@ button {
 /* interviews */
 
 .parallax_interviews {
-    background: url(/images/content/interview.jpg) center/cover no-repeat;
+    background: url(../images/content/interview.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1414,7 +1410,7 @@ button {
 /* operators */
 
 .parallax_operators {
-    background: url(/images/content/operators.jpg) center/cover no-repeat;
+    background: url(../images/content/operators.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1422,7 +1418,7 @@ button {
 /* directors */
 
 .parallax_directors {
-    background: url(/images/content/directors.jpg) center/cover no-repeat;
+    background: url(../images/content/directors.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1430,7 +1426,7 @@ button {
 /* writers */
 
 .parallax_writers {
-    background: url(/images/content/writers.jpg) center/cover no-repeat;
+    background: url(../images/content/writers.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1438,7 +1434,7 @@ button {
 /* arts */
 
 .parallax_arts {
-    background: url(/images/content/art.jpg) center/cover no-repeat;
+    background: url(../images/content/art.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1446,7 +1442,7 @@ button {
 /* actors */
 
 .parallax_actors {
-    background: url(/images/content/actors.jpg) center/cover no-repeat;
+    background: url(../images/content/actors.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1454,7 +1450,7 @@ button {
 /* sounds */
 
 .parallax_sounds {
-    background: url(/images/content/sound.jpg) center/cover no-repeat;
+    background: url(../images/content/sound.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1462,7 +1458,7 @@ button {
 /* edits */
 
 .parallax_edits {
-    background: url(/images/content/edit.jpg) center/cover no-repeat;
+    background: url(../images/content/edit.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 
@@ -1470,7 +1466,7 @@ button {
 /* aboutmovies */
 
 .parallax_aboutmovies {
-    background: url(/images/content/aboutmovie.jpg) center/cover no-repeat;
+    background: url(../images/content/aboutmovie.jpg) center/cover no-repeat;
     background-attachment: fixed;
 }
 

@@ -4,10 +4,6 @@ module.exports = (config) => {
     config.addPassthroughCopy("src/scripts");
     config.addPassthroughCopy("src/styles");
     config.addPassthroughCopy("src/files");
-    config.addPassthroughCopy({
-        './node_modules/aos/dist/aos.js': './scripts/aos.js',
-        './node_modules/aos/dist/aos.css': './styles/aos.css',
-    })
 
     config.addFilter("translit", (value) => {
         return cyrillicToTranslit.transform(value).replace(/[!?;:,.]/g, '');
