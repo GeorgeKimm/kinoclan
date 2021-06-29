@@ -1,5 +1,6 @@
 [
-    {   "image": "/images/content/frame/casino/casinofull.jpg",
+    {
+        "image": "/images/content/frame/casino/casinofull.jpg",
         "imageSmall": "/images/content/frame/casino/casinofull-small.jpg",
         "imageCrop": "/images/content/frame/casino/casinofull-crop.jpg",
         "imageFour": "/images/content/frame/casino/casinofull-4card.jpg",
@@ -13,7 +14,7 @@
         "bigDescription": "Используя богатый шпионский арсенал, Джеймс Бонд вступает в поединок с финансовым гением преступного мира Ле Шиффром. Но генеральное сражение против него можно выиграть лишь силой ума, и не на поле боя, а на зеленом сукне казино Рояль.",
         "director": "Мартин Кэмпбелл",
         "operator": "Фил Мейхью",
-        "images":[
+        "images": [
             "/images/content/frame/casino/casino1.jpg",
             "/images/content/frame/casino/casino2.jpg",
             "/images/content/frame/casino/casino3.jpg",
@@ -29,7 +30,6 @@
             "/images/content/frame/casino/casino13.jpg",
             "/images/content/frame/casino/casino14.jpg"
         ]
-
     },
 
     {
@@ -47,7 +47,7 @@
         "bigDescription": "Действие разворачивается в районе известнякового плато Озарк, расположенного одновременно в нескольких штатах. Детектив Уэйн Хейз совместно со следователем из Арканзаса Роландом Уэстом пытаются разобраться в загадочном преступлении, растянувшемся на три десятилетия.",
         "director": "Кэри Фукунага, Дэниэл Сакхайм, Джон Краули",
         "operator": "Найджел Блак, Адам Аркпоу, Джермейн МакМикинг",
-        "images":[
+        "images": [
             "/images/content/frame/detective/detective1.jpg",
             "/images/content/frame/detective/detective2.jpg",
             "/images/content/frame/detective/detective3.jpg",
@@ -63,14 +63,13 @@
             "/images/content/frame/detective/detective13.jpg",
             "/images/content/frame/detective/detective14.jpg"
         ]
-
     },
 
     {
-        "image": "/images/content/frame/exmachina/exMachinafull.jpg",
-        "imageSmall": "/images/content/frame/exmachina/exMachinafull-small.jpg",
-        "imageCrop": "/images/content/frame/exmachina/exMachinafull-crop.jpg",
-        "imageFour": "/images/content/frame/exmachina/exMachinafull-4card.jpg",
+        "image": "/images/content/frame/exmachina/ExMachinafull.jpg",
+        "imageSmall": "/images/content/frame/exmachina/ExMachinafull-small.jpg",
+        "imageCrop": "/images/content/frame/exmachina/ExMachinafull-crop.jpg",
+        "imageFour": "/images/content/frame/exmachina/ExMachinafull-4card.jpg",
         "titleArticle": "Кинокадры",
         "textArticle": "Из машины",
         "titleCategories": "Кадры",
@@ -81,23 +80,22 @@
         "bigDescription": "Молодого человека нанимает миллиардер, сделавший состояние на высокотехнологичных разработках. Задача нового сотрудника - провести неделю в отрезанном от цивилизации доме, тестируя женщину-робота с искусственным интеллектом.",
         "director": "Алекс Гарленд",
         "operator": "Алекс Гарленд",
-        "images":[
-            "/images/content/frame/exmachina/exMachina1.jpg",
-            "/images/content/frame/exmachina/exMachina2.jpg",
-            "/images/content/frame/exmachina/exMachina3.jpg",
-            "/images/content/frame/exmachina/exMachina4.jpg",
-            "/images/content/frame/exmachina/exMachina5.jpg",
-            "/images/content/frame/exmachina/exMachina6.jpg",
-            "/images/content/frame/exmachina/exMachina7.jpg",
-            "/images/content/frame/exmachina/exMachina8.jpg",
-            "/images/content/frame/exmachina/exMachina9.jpg",
-            "/images/content/frame/exmachina/exMachina10.jpg",
-            "/images/content/frame/exmachina/exMachina11.jpg",
-            "/images/content/frame/exmachina/exMachina12.jpg",
-            "/images/content/frame/exmachina/exMachina13.jpg",
-            "/images/content/frame/exmachina/exMachina14.jpg"
+        "images": [
+            "/images/content/frame/exmachina/ExMachina1.jpg",
+            "/images/content/frame/exmachina/ExMachina2.jpg",
+            "/images/content/frame/exmachina/ExMachina3.jpg",
+            "/images/content/frame/exmachina/ExMachina4.jpg",
+            "/images/content/frame/exmachina/ExMachina5.jpg",
+            "/images/content/frame/exmachina/ExMachina6.jpg",
+            "/images/content/frame/exmachina/ExMachina7.jpg",
+            "/images/content/frame/exmachina/ExMachina8.jpg",
+            "/images/content/frame/exmachina/ExMachina9.jpg",
+            "/images/content/frame/exmachina/ExMachina10.jpg",
+            "/images/content/frame/exmachina/ExMachina11.jpg",
+            "/images/content/frame/exmachina/ExMachina12.jpg",
+            "/images/content/frame/exmachina/ExMachina13.jpg",
+            "/images/content/frame/exmachina/ExMachina14.jpg"
         ]
-
     },
 
     {
@@ -115,7 +113,7 @@
         "bigDescription": "Криминальная сага, повествующая о нью-йоркской сицилийской мафиозной семье Корлеоне. Фильм охватывает период 1945-1955 годов.",
         "director": "Фрэнсис Форд Коппола",
         "operator": "Гордон Уиллис",
-        "images":[
+        "images": [
             "/images/content/frame/godfather/godfather1.jpg",
             "/images/content/frame/godfather/godfather2.jpg",
             "/images/content/frame/godfather/godfather3.jpg",
@@ -130,8 +128,7 @@
             "/images/content/frame/godfather/godfather12.jpg",
             "/images/content/frame/godfather/godfather13.jpg",
             "/images/content/frame/godfather/godfather14.jpg"
-            ]
-
+        ]
     },
 
     {
@@ -149,7 +146,7 @@
         "bigDescription": "Провинциалка Джесси, мечтающая стать супермоделью, едва окончив школу, отправляется покорять Лос-Анджелес. Через тернии (одна, без денег, чужой город, дешевый мотель), но и через нужные знакомства, фотосессии, вечеринки – к звездам. И вот это сладкое слово слава становится былью для юной красавицы. Но за стремительный карьерный взлет придется расплатиться – конкурентки из ненависти и безумной зависти готовы на многое.",
         "director": "Николас Виндинг Рефн",
         "operator": "Наташа Брайер",
-        "images":[
+        "images": [
             "/images/content/frame/neon/neon1.jpg",
             "/images/content/frame/neon/neon2.jpg",
             "/images/content/frame/neon/neon3.jpg",
@@ -165,7 +162,5 @@
             "/images/content/frame/neon/neon13.jpg",
             "/images/content/frame/neon/neon14.jpg"
         ]
-
     }
 ]
-
